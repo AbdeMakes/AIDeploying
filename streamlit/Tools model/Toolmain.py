@@ -3,7 +3,7 @@ import numpy as np
 
 import joblib as jb
 
-model = jb.load('RFTools/predictive_maintenance.pkl')
+model = jb.load('AIDeploying/streamlit/Tools model/predictive_maintenance.pkl')
 
 page=st.sidebar.title('Prediction')
 
